@@ -1,0 +1,11 @@
+[package]
+name = "nft_airdrop"
+version = "0.1.0"
+authors = ["Khubaiab Ishtiaq <khubabahmedishtiaq@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+near-sdk = "3.1.*"  # Updated to allow the latest compatible version
+
+[lib]
+crate-type = ["cdylib", "rlib"]
